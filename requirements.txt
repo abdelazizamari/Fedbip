@@ -14,7 +14,7 @@ tokenizers==0.13.3
 tqdm
 transformers==4.25.0
 torch_fidelity
-torch==2.0.1
+torch==2.10.0
 wandb
 NudeNet==3.0.8
 fire

@@ -16,7 +16,7 @@ for DATASET in "domainnet"; do
         CUDA_VISIBLE_DEVICES=0 python train.py \
             --output_dir "exps_$DATASET/${TRAIN_TYPE}_d_${domain}_multiclient" \
             --evaluation_type generate \
-            --num_train_epochs 50\
+            --num_train_epochs 10\
             --train_batch_size 32 \
             --domain "$domain" \
             --train_type $TRAIN_TYPE \
